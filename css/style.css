@@ -4,20 +4,25 @@
     left: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
 }
 
-#sidepanel_company:hover {
+.sidepanel a:hover svg{
     color: green;
-}
-#sidepanel_company:hover svg{
     height: 40px;
     width: 40px;
 }
-.sidepanel a:hover{
-    color: brown;
+#sidepanel_company:hover::after{
+    content: 'КОМПАНИЯ';
+}
+#sidepanel_product:hover::after{
+    content: 'ПРОДУКТЫ';
+}
+#sidepanel_clients:hover::after{
+    content: 'КЛИЕНТЫ';
 }
 .sidepanel a:hover::after{
-    content: 'КОМПАНИЯ';
     position: absolute; /* Абсолютное позиционирование */
-    left: 30px; right: 0; /* Положение подсказки */
+    left: 50px; right: 0; /* Положение подсказки */
 }
