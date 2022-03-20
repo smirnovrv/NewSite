@@ -1,0 +1,23 @@
+.sidepanel{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#sidepanel_company:hover {
+    color: green;
+}
+#sidepanel_company:hover svg{
+    height: 40px;
+    width: 40px;
+}
+.sidepanel a:hover{
+    color: brown;
+}
+.sidepanel a:hover::after{
+    content: 'КОМПАНИЯ';
+    position: absolute; /* Абсолютное позиционирование */
+    left: 30px; right: 0; /* Положение подсказки */
+}
