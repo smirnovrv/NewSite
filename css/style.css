@@ -26,3 +26,11 @@
     position: absolute; /* Абсолютное позиционирование */
     left: 50px; right: 0; /* Положение подсказки */
 }
+.company_wrapper{
+    margin-top: 40px;
+    text-align: center;
+}
+.products_wrapper{
+    margin-top: 40px;
+    text-align: center;  
+}
