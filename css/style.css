@@ -26,11 +26,12 @@
     position: absolute; /* Абсолютное позиционирование */
     left: 50px; right: 0; /* Положение подсказки */
 }
-.company_wrapper{
+.company_wrapper, .products_wrapper, .contacts_wrappers, .manifest
+{
     margin-top: 40px;
     text-align: center;
 }
-.products_wrapper{
-    margin-top: 40px;
-    text-align: center;  
+.manifest_wrappers{
+    margin-left: 100px;
+    text-align: left;  
 }
